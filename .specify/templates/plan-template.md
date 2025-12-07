@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+*   **Accuracy & Verifiability**: Is all information traceable to primary, verifiable sources?
+*   **Clarity & Accessibility**: Is the writing clear for the target audience (Flesch-Kincaid Grade 10-12)?
+*   **Reproducibility & Rigor**: Is the work based on peer-reviewed research with proper APA citations?
+*   **Sourcing & Plagiarism**: Does it meet the minimum source requirements (15 total, 50% peer-reviewed) and pass plagiarism checks?
+*   **Consistency**: Is terminology consistent with prior works?
+*   **Constraints**: Does the plan adhere to the word count (5,000–7,000) and format (PDF) constraints?
 
 ## Project Structure
 

@@ -1,55 +1,55 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+---
+Sync Impact Report
+---
+Version change: 0.0.0 → 1.0.0
+Modified principles:
+- Principle 1: Accuracy based on primary, verifiable sources
+- Principle 2: Clarity for academic readers (CS background)
+- Principle 3: Reproducibility with traceable citations
+- Principle 4: Rigor using peer-reviewed research
+Added sections:
+- Project Constraints
+- Success Criteria
+Removed sections: None
+Templates requiring updates:
+- .specify/templates/plan-template.md (- updated)
+- .specify/templates/spec-template.md (- updated)
+- .specify/templates/tasks-template.md (- updated)
+Follow-up TODOs: None
+-->
+# Physical AI and Humanoid Robotics Textbook Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Accuracy and Verifiability
+Content must be based on primary, verifiable sources. All factual claims must be source-verified.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clarity and Accessibility
+Writing must be clear and accessible to academic readers with a Computer Science background. The target reading level is Flesch-Kincaid Grade 10–12.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Reproducibility and Rigor
+The work must be based on peer-reviewed research to ensure academic rigor. All citations must be traceable, following the APA citation style.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Sourcing and Plagiarism
+A minimum of 15 sources must be used, with at least 50% being peer-reviewed. There is a zero-tolerance policy for plagiarism.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Consistency
+Concepts from the prior book on AI Agents must be integrated. Terminology and definitions must be consistent throughout the textbook.
 
-### [PRINCIPLE_6_NAME]
+## Project Constraints
+- Word count: 5,000–7,000
+- Format: PDF with embedded citations
+- Integration: Must integrate concepts from the prior book on AI Agents
+- Consistency: Terminology and definitions must be consistent
 
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Success Criteria
+- All claims verified and traceable
+- At least 50% peer-reviewed sources
+- Passes plagiarism and fact-checking review
+- Meets all clarity and formatting standards
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+All work on this project must adhere to the principles, standards, and constraints outlined in this constitution. Any amendments to this constitution require documentation, review, and approval.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-07 | **Last Amended**: 2025-12-07
