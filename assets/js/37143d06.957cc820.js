@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_docusaurus_project=globalThis.webpackChunkmy_docusaurus_project||[]).push([[681],{6499:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/book1_project/blog/tags/docusaurus","allTagsPath":"/book1_project/blog/tags","count":1,"unlisted":false}')}}]);
